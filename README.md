@@ -31,9 +31,9 @@ import spaceship from "spaceship";
 Then use it:
 
 ```javascript
-spaceship(10, 5); //  1
-spaceship(10, 10); //  0
-spaceship(10, 20); // -1
+spaceship("IE", "Safari"); // -1
+spaceship("cookie", "cookie"); //  0
+spaceship("house", "car"); //  1
 ```
 
 That's all.
