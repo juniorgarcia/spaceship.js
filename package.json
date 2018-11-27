@@ -1,5 +1,5 @@
 {
-  "name": "spaceship",
+  "name": "spaceship.js",
   "version": "0.0.1-beta",
   "description": "A function that acts like PHP's spaceship operator (<=>)",
   "main": "dist/spaceship.min.js",
