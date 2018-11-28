@@ -6,7 +6,7 @@
  * If `lhs` (left hand side) is GREATER THAN the `rhs` (right hand side), the return is 0;
  * @param lhs
  * @param rhs
- * @return {-1|0|1}
+ * @return {number}
  */
 export default function spaceship(lhs, rhs) {
   if (lhs < rhs) {
