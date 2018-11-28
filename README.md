@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/juniorgarcia/spaceship.js.svg?branch=master)](https://travis-ci.org/juniorgarcia/spaceship.js)
+
 # What is it for?
 
 Useful for sorting strings in JavaScript using the new `sort` function and to
