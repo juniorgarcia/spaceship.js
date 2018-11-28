@@ -1,12 +1,19 @@
 {
   "name": "spaceship.js",
-  "version": "0.0.6-beta",
+  "version": "0.0.7-beta",
   "description": "A function that acts like PHP's spaceship operator (<=>)",
   "main": "dist/spaceship.min.js",
   "module": "src/spaceship.js",
   "repository": "https://github.com/juniorgarcia/spaceship.js",
   "author": "Júnior Garcia <itamarjr91@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "spaceship",
+    "spaceship operator",
+    "php",
+    "<=>",
+    "operator"
+  ],
   "devDependencies": {
     "@babel/core": "^7.1.6",
     "@babel/preset-env": "^7.1.6",
