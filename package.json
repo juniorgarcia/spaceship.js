@@ -1,6 +1,6 @@
 {
   "name": "spaceship.js",
-  "version": "0.0.7-beta",
+  "version": "0.0.8-beta",
   "description": "A function that acts like PHP's spaceship operator (<=>)",
   "main": "dist/spaceship.min.js",
   "module": "src/spaceship.js",
