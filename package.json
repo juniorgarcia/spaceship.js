@@ -2,7 +2,7 @@
   "name": "spaceship.js",
   "version": "0.1.0",
   "description": "A function that acts like PHP's spaceship operator (<=>)",
-  "main": "dist/spaceship.min.js",
+  "main": "dist/spaceship.cjs.min.js",
   "module": "src/spaceship.js",
   "repository": "https://github.com/juniorgarcia/spaceship.js",
   "author": "Júnior Garcia <itamarjr91@gmail.com>",
