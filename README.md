@@ -21,13 +21,13 @@ It acts like PHP's spaceship (`<=>`) operator.
 You just need to require the module like this:
 
 ```javascript
-const spaceship = require("spaceship").default;
+const spaceship = require("spaceship.js");
 ```
 
 Or like this:
 
 ```javascript
-import spaceship from "spaceship";
+import spaceship from "spaceship.js";
 ```
 
 Then use it:
