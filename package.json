@@ -1,6 +1,6 @@
 {
   "name": "spaceship.js",
-  "version": "0.0.8-beta",
+  "version": "0.1.0",
   "description": "A function that acts like PHP's spaceship operator (<=>)",
   "main": "dist/spaceship.min.js",
   "module": "src/spaceship.js",
@@ -21,16 +21,18 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.4",
-    "compression-webpack-plugin": "^2.0.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-prettier": "^3.1.2",
     "jest": "^23.6.0",
     "prettier": "^1.15.2",
     "regenerator-runtime": "^0.13.1",
-    "webpack": "^4.26.1",
-    "webpack-cli": "^3.1.2"
+    "rollup": "^2.6.0",
+    "rollup-plugin-uglify": "^6.0.4"
   },
   "scripts": {
     "test": "jest",
-    "build": "NODE_ENV=production webpack"
+    "watch": "rollup --watch --config rollup.config.dev.js",
+    "build": "rollup --config rollup.config.prod.js"
   },
   "publishConfig": {
     "access": "public"
